@@ -21,6 +21,7 @@ namespace ECommerce.Api.Customers.UnitTest
             var mapperConfig = new AutoMapper.MapperConfiguration(c => c.AddProfile(customerProfile));
             var mapper =  new AutoMapper.Mapper(mapperConfig);
 
+
             var provider =  new Providers.CustomerProvider(customerDbContext, null, mapper);
             var customers = await  provider.GetCustomersAsync();
 

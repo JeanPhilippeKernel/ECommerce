@@ -24,6 +24,7 @@ namespace ECommerce.Api.Products.UnitTest
 
             var productProvider =  new Providers.ProductProvider(productDbContext, null, mapper);
 
+
             var products  = await productProvider.GetAllProductsAsync();
 
             Assert.True(products.IsSuccess);
