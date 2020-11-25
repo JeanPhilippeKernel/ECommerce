@@ -11,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Products", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Search", "ECommerce.Api.Search\ECommerce.Api.Search.csproj", "{564005F8-77AC-46ED-90C7-F092BDE67810}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Products.UnitTest", "ECommerce.Api.Products.UnitTest\ECommerce.Api.Products.UnitTest.csproj", "{4FB22AFA-930B-4287-AC96-872EFD420F91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Products.Test", "ECommerce.Api.Products.UnitTest\ECommerce.Api.Products.Test.csproj", "{4FB22AFA-930B-4287-AC96-872EFD420F91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Customers.UnitTest", "ECommerce.Api.Customers.UnitTest\ECommerce.Api.Customers.UnitTest.csproj", "{AB1B9FA8-C6F6-4D5A-B5CD-DC4D4B65B96F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Customers.Test", "ECommerce.Api.Customers.UnitTest\ECommerce.Api.Customers.Test.csproj", "{AB1B9FA8-C6F6-4D5A-B5CD-DC4D4B65B96F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
